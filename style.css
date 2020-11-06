@@ -1,0 +1,166 @@
+*{
+    padding:0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(230, 230, 230);
+}
+
+.body {
+    width: 100%;
+    min-height: 180vh;
+    background-color: rgb(230, 230, 230);
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.instagram-photo {
+    width: 30%;
+    margin-left: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.instagram-photo img {
+    height: 50rem;
+    width: 50rem;
+}
+
+
+
+.group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 3.3rem 0;   
+    border: 1px solid lightgray;
+    
+
+
+}
+.group:nth-child(1) {
+
+    min-height: 19rem;
+    min-width:  22rem;
+}
+
+.group:nth-child(2){
+    min-height: 3rem;
+    min-width: 22rem;
+}
+.instagram-logo {
+    height: 3rem;
+}
+
+.instagram-continue {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 31rem;
+
+}
+
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80%;
+    width: 30%;
+    overflow: hidden;
+
+}
+.profile-photo img {
+    height: 6rem;
+    width: 7rem;
+}
+
+.instagram-login {
+    margin-top: 20px;
+    background-color: #0095f0;
+    color: #ffffff;
+    padding: 0px;
+    border-radius: 4px;
+    height: 35px;
+    width: 245px;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.instagram-logout {
+    color: #e74e28;
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: black
+    ;
+    background-color: white;
+
+}
+
+.link-blue {
+    color: #0095f0;
+    
+}
+.link-black {
+    color: black;
+}
+
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:1rem;
+}
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url(http://maclook.yolasite.com/resources/baixar%20app%20ANDROID.PNG);
+    height: 50px;
+}
+.app-download:nth-child(2) {
+    background-image: url(http://maclook.yolasite.com/resources/baixar%20app%20IOS.PNG);
+    background-size: 95%;
+    height: 50px;
+    margin-left: 15px;
+}
+   
